@@ -51,7 +51,10 @@ const Home = () => {
         <br/>
         <AnimatedLetters letterClass={letterClass} strArray={jobArray3} idx={40}/>
         <img src={LogoTitle} alt="developer" />
+        <br/>
         </h1>
+        <br/>
+        <br/>
         <h2>Junior Fullstack Developer</h2>
         <Link to= "/contact" className='flat-button'>CONTACT ME</Link>
       </div>
