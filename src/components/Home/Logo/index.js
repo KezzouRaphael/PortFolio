@@ -1,7 +1,7 @@
 import './index.scss';
 
 import React from 'react';
-import LogoS from '../../../assets/images/logo-becode.png';
+import LogoS from '../../../assets/images/R.png';
 const Logo = () => {
   return (
     <div className='logo-container'>
