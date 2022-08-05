@@ -14,23 +14,12 @@ const Home = () => {
   const jobArray2 = ['D','e','v','e','l','o','p','e','r'];
   const jobArray3 = ['a','t'];
   useEffect(() => {
-
-        
-
     let timeoutId = setTimeout(() => {
-
-        setLetterClass('text-animate-hover')
-
+      setLetterClass('text-animate-hover');
     }, 4000)
-
-    
-
     return () => {
-
-                clearTimeout(timeoutId)
-
-            }
-
+    clearTimeout(timeoutId);
+    }
 }, [])
   return (
     <>    
