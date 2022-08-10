@@ -10,16 +10,16 @@ const Sidebar = () => (
       <img className="sub-logo" src= {LogoSubtitle} alt = "slobodan" />
     </Link>
     <nav>
-      <NavLink exact="true" activeclassName="active" to="/">
+      <NavLink exact="true" className={({ isActive }) => isActive? "active": ''} to="/">
         <FontAwesomeIcon icon={faHome} color="#4d4d4e"/>
       </NavLink>
-      <NavLink exact="true" activeclassName="active" className="about-link" to="/about">
+      <NavLink exact="true" className={({ isActive }) => isActive? "active about-link": 'about-link'} to="/about">
         <FontAwesomeIcon icon={faUser} color="#4d4d4e"/>
       </NavLink>
-      <NavLink exact="true" activeclassName="active" className="contact-link" to="/contact">
+      <NavLink exact="true" className={({ isActive }) => isActive? "active contact-link": 'contact-link'} to="/contact">
         <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e"/>
       </NavLink>
-      <NavLink exact="true" activeclassName="active" className="project-link" to="/projects">
+      <NavLink exact="true" className={({ isActive }) => isActive? "active project-link": 'project-link'} to="/projects">
         <FontAwesomeIcon icon={faAddressCard} color="#4d4d4e"/>
       </NavLink>
     </nav>
