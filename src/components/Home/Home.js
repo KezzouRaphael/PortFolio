@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import LogoTitle from '../../assets/images/logo-becode.png';
 import {Link} from 'react-router-dom';
 import './Home.scss';
-import AnimatedLetters from '../AnimatedLetters';
+import AnimatedLetters from '../AnimatedLetters/AnimatedLetters';
 import Logo from './Logo/Logo';
 import Loader from 'react-loaders';
 const Home = () => {

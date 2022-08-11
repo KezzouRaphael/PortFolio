@@ -2,7 +2,7 @@ import "./Projects.scss";
 
 import React, { useEffect, useState } from 'react';
 import Loader from "react-loaders";
-import AnimatedLetters from "../AnimatedLetters";
+import AnimatedLetters from "../AnimatedLetters/AnimatedLetters";
 
 const Projects = () => {
   const[letterClass,setLetterClass] = useState('text-animate');
