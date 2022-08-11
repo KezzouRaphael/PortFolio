@@ -1,4 +1,4 @@
-import "./index.scss";
+import "./Projects.scss";
 
 import React, { useEffect, useState } from 'react';
 import Loader from "react-loaders";

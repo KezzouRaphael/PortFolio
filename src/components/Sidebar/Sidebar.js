@@ -1,4 +1,4 @@
-import './index.scss'
+import './Sidebar.scss'
 import {Link, NavLink} from 'react-router-dom'
 import LogoSubtitle from '../../assets/images/logo-becode.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

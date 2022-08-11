@@ -1,4 +1,4 @@
-import './index.scss';
+import './Contact.scss';
 
 import React, { useEffect, useRef, useState } from 'react';
 import Loader from 'react-loaders';

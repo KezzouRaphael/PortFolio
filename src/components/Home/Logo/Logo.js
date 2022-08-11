@@ -1,4 +1,4 @@
-import './index.scss';
+import './Logo.scss';
 
 import React from 'react';
 import LogoS from '../../../assets/images/R.png';
