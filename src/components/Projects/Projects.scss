@@ -1,17 +1,26 @@
-.project-page{
-  .text-zone{
-    position:absolute;
-    left:10%;
-    top:50%;
-    transform:translateY(-50%);
-    width: 40%;
-    max-height: 90%;
-    h1{
-      color: #fff;
-      font-size:30px;
-      margin: 0;
-      font-family: 'Coolvetica';
-      font-weight: 400;
-    }
-  }
+.portfolio-image{
+  height: 250px;
+  width: 250px;
+}
+.images-container{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.project-box{
+  display: flex;
+  flex-direction: column;
+}
+.link{
+    /* use inline-block because it respects padding */
+    display: inline-block;
+    /* padding creates clickable area around text (top/bottom, left/right) */
+    padding: 1em 3em;
+    /* round corners */
+    border-radius: 5px;
+    /* remove underline */
+    text-decoration: none;
+    /* set colors */
+    color:#ffd700;
+    background-color: #fff;
 }

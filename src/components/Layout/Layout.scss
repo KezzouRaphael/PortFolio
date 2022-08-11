@@ -37,7 +37,7 @@
   animation-delay: 1s;
 }
 
-.about-page,.contact-page{
+.about-page,.contact-page,.project-page{
   .text-zone{
     position: absolute;
     top:50%;
@@ -82,9 +82,9 @@
       }
     }
     p{
-      font-style: 13px;
+      font-size: 13px;
       color: #fff;
-      font-family: sans-serif;
+      font-family: "Helvetica",sans-serif;
       font-weight: 300;
       min-width: fit-content;
       animation: pulse 1s;
