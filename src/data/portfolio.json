@@ -1,19 +1,19 @@
 {
   "portfolio": [
     {
-      "cover" : "/images/Pokedexscreen.png",
+      "cover" : "./images/Pokedexscreen.png",
       "title": "PokedexJS",
       "description": "HTML,CSS,JS",
       "url": "https://kezzouraphael.github.io/PokedexJS/"
     },
     {
-      "cover" : "/images/Hickingscreen.png",
+      "cover" : "./images/Hickingscreen.png",
       "title": "Hicking website",
       "description": "PHP",
       "url": "https://haicking.herokuapp.com"
     },
     {
-      "cover" : "/images/Snakescreen.png",
+      "cover" : "./images/Snakescreen.png",
       "title": "Snake Game",
       "description": "HTML/CSS/JS",
       "url": "https://kezzouraphael.github.io/Snake/"
