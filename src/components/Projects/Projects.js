@@ -35,7 +35,7 @@ const Projects = () => {
                   <p className="description">{port.description}</p>
                 </div>
                 <div className="url-box">
-                  <a className ="link" href={port.url} target="_blank" rel="noreferrer">Link to project</a>
+                  <a className ="flat-button" href={port.url} target="_blank" rel="noreferrer">Link to project</a>
                 </div>
               </div>
             )

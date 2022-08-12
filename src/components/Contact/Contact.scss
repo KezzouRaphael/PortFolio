@@ -51,15 +51,24 @@
     box-sizing: border-box;
   }
   .flat-button{
-    color: #ffd700;
-    background-color: rgba(8,253,216,0.1);
-    font:  11px;
-    letter-spacing:3px;
+    color:#ffd700;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing:4px;
     text-decoration: none;
-    padding:  8px 10px;
+    font-family: sans-serif;
+    padding: 10px 10px;
     border: 1px solid #ffd700;
-    float: right;
-    border-radius: 4px;
+    margin-top:25px ;
+    float: left;
+    animation: fadeIn 1s 1.8s backwards;
+    white-space: nowrap;
+    background: #115173;
+    &:hover{
+      background: #ffd700;
+      color:#333;
+      cursor:pointer;
+    }
   }
 }
 
