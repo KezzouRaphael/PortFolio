@@ -6,20 +6,20 @@ import { faAddressCard, faEnvelope, faHome, faUser } from '@fortawesome/free-sol
 import {faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons'
 const Sidebar = () => (
   <div className="nav-bar">
-    <Link className = 'logo' to= '/PortFolio'>
-      <img className="sub-logo" src= {LogoSubtitle} alt = "slobodan" />
+    <Link className = 'logo' to= '/'>
+      <img className="sub-logo" src= {LogoSubtitle} alt = "becode" />
     </Link>
     <nav>
-      <NavLink exact="true" className={({ isActive }) => isActive? "active": ''} to="/PortFolio">
+      <NavLink exact="true" className={({ isActive }) => isActive? "active": ''} to="/">
         <FontAwesomeIcon icon={faHome} color="#4d4d4e"/>
       </NavLink>
-      <NavLink exact="true" className={({ isActive }) => isActive? "active about-link": 'about-link'} to="/PortFolio/about">
+      <NavLink exact="true" className={({ isActive }) => isActive? "active about-link": 'about-link'} to="about">
         <FontAwesomeIcon icon={faUser} color="#4d4d4e"/>
       </NavLink>
-      <NavLink exact="true" className={({ isActive }) => isActive? "active contact-link": 'contact-link'} to="/PortFolio/contact">
+      <NavLink exact="true" className={({ isActive }) => isActive? "active contact-link": 'contact-link'} to="contact">
         <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e"/>
       </NavLink>
-      <NavLink exact="true" className={({ isActive }) => isActive? "active project-link": 'project-link'} to="/PortFolio/projects">
+      <NavLink exact="true" className={({ isActive }) => isActive? "active project-link": 'project-link'} to="projects">
         <FontAwesomeIcon icon={faAddressCard} color="#4d4d4e"/>
       </NavLink>
     </nav>
