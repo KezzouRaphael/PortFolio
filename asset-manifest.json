@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PortFolio/static/css/main.ed8fc6e2.css",
-    "main.js": "/PortFolio/static/js/main.7f7163ff.js",
+    "main.css": "/PortFolio/static/css/main.13e32b55.css",
+    "main.js": "/PortFolio/static/js/main.cea2a127.js",
     "static/js/787.1ed0c42c.chunk.js": "/PortFolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/R.png": "/PortFolio/static/media/R.06d9fbdc3ee4a157246a.png",
     "static/media/logo-becode.png": "/PortFolio/static/media/logo-becode.ca04304bffa90019fe67.png",
@@ -9,12 +9,12 @@
     "static/media/LaBelleAurore.woff2": "/PortFolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/PortFolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/PortFolio/index.html",
-    "main.ed8fc6e2.css.map": "/PortFolio/static/css/main.ed8fc6e2.css.map",
-    "main.7f7163ff.js.map": "/PortFolio/static/js/main.7f7163ff.js.map",
+    "main.13e32b55.css.map": "/PortFolio/static/css/main.13e32b55.css.map",
+    "main.cea2a127.js.map": "/PortFolio/static/js/main.cea2a127.js.map",
     "787.1ed0c42c.chunk.js.map": "/PortFolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed8fc6e2.css",
-    "static/js/main.7f7163ff.js"
+    "static/css/main.13e32b55.css",
+    "static/js/main.cea2a127.js"
   ]
 }
